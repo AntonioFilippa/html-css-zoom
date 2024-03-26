@@ -10,10 +10,11 @@ header{
     text-align: right;
 }
 main{
-     width: 100%;
+    height:calc(100vh - 150px);
+    width: 100vw;
     background-color: black;
     height: calc(100vh - 150px);
-    overflow: auto;
+    overflow:hidden;
 }
 
 .row{
@@ -27,9 +28,7 @@ main{
     margin: 0 auto;
 }
 .col17{
-    width: calc( 100% / 7 - 20px);
-   
-   
+    width: calc( 100% / 7 - 20px);  
 }
 .square.red img{
     width: 100%;
@@ -41,14 +40,31 @@ main{
 }
 .square-footer{
     height: 75px;
-    background-color: red;
+    
 }
 .row2{
     display: flex;
 }
 footer{
     height: 75px;
+    background-color: rgb(36, 35, 35);
+    width: 100%;
 }
-.content{
-    height: calc(100vh -150px);
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+button{
+    background-color:rgb(36, 35, 35) ;
+    color: white;
+}
+button img{
+    display: block;
+    height:35px;
+    vertical-align: middle;
 }
